@@ -1,10 +1,25 @@
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 export default function ProductRow({ products, onAdd }) {
     const [productId, setProductId] = useState(products[0]?.id ?? "");
     const [quantity, setQuantity] = useState(1);
     const [imported, setImported] = useState(false);
+
+
+    // Per il primo elemento già selezionato
+    useEffect(() => {
+        if (!products?.length) {
+            setProductId("");
+            return;
+        }
+
+        const exist = products.some(p => p.id === productId);
+        if (!exist) {
+            setProductId(products[0].id);
+        }
+    }, [products, productId]);
+
 
     const selected = useMemo(
         () => products.find(p => p.id === productId),
