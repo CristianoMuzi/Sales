@@ -4,7 +4,6 @@ Scaricare il file .zip ed estrarlo --> lanciare "npm install" --> poi utilizzare
 Download .zip file ed extract it --> launch "npm install" --> then use "start_prod" or "start_dev"
 
 
-# Script per sviluppatori:
 # Developer scripts
 
 
