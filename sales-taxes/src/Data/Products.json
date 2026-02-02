@@ -1,0 +1,56 @@
+[
+    {
+        "id": "book_01",
+        "name": "book",
+        "category": "books",
+        "price": 12.49
+    },
+    {
+        "id": "music_cd_01",
+        "name": "music CD",
+        "category": "other",
+        "price": 14.99
+    },
+    {
+        "id": "chocolate_bar_01",
+        "name": "chocolate bar",
+        "category": "food",
+        "price": 0.85
+    },
+    {
+        "id": "chocolates_box_01",
+        "name": "box of chocolates",
+        "category": "food",
+        "price": 10.0
+    },
+    {
+        "id": "perfume_01",
+        "name": "bottle of perfume",
+        "category": "other",
+        "price": 47.5
+    },
+    {
+        "id": "perfume_02",
+        "name": "bottle of perfume",
+        "category": "other",
+        "price": 27.99
+    },
+    {
+        "id": "perfume_03",
+        "name": "bottle of perfume",
+        "category": "other",
+        "price": 18.99
+    },
+    {
+        "id": "headache_pills_01",
+        "name": "packet of headache pills",
+        "category": "medical",
+        "price": 9.75
+    },
+    {
+        "id": "chocolates_box_02",
+        "name": "box of chocolates",
+        "category": "food",
+        "price": 11.25
+    }
+]
