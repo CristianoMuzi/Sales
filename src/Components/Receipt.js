@@ -39,6 +39,8 @@ export default function Receipt({ receipt, removeRecipet }) {
                 <span>Total</span>
                 <span className="money">€{receipt.total.toFixed(2)}</span>
             </div>
+                {/* mostrare tipo arrotandomento */}
+                {/* scegliere simbolo valuta in base a EUR ecc*/}
         </div>
     );
 }
